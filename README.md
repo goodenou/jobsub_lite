@@ -22,6 +22,13 @@ The basic design of jobsub_lite is straightforward. It will:
 
 There is also a simplified dagnabbit parser (again for past jobsub DAG tools compatbility) that reuses the same command line parser to generate .cmd and .sh files for each stage in the DAG.
 
+Here is a short video:
+
+
+https://user-images.githubusercontent.com/20563974/216148271-56da290b-625b-400e-88f7-6d2ba1c6879f.MOV
+
+
+
 ## Credentials
 
 This version of jobsub is expected to deal with SciTokens credentials; and will use the new ifdhc getToken call to fetch them, which in turn will call the htgettoken utility. Production accounts will have special production tokens pushed to them via the Managed Tokens Service, and this utility will not have to get those tokens.
